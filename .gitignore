@@ -1,7 +1,10 @@
-def say_hello(name):
-    return f"Hello, {name}!"
+# IDEs
+.idea/
 
-if __name__ == "__main__":
-    user_name = input("Enter your name: ")
-    greeting = say_hello(user_name)
-    print(greeting)
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
